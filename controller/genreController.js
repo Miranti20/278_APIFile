@@ -3,6 +3,7 @@ const db = require("../models");
 const Genre = db.Genre;
 
 
+
 async function getAll(req, res) {
   try {
     const genres = await Genre.findAll();
