@@ -17,6 +17,7 @@ async function getAll(req, res) {
 }
 
 
+
 async function create(req, res) {
   try {
     const { nama, deskripsi } = req.body;
